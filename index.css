@@ -1,0 +1,15 @@
+.container{
+    height:500px;
+    width:500px;
+    color: blue;
+    font-size: 100px;
+    border: 2px solid black;
+    /* t r b l */
+    padding:100px;
+    margin: 25px 25px 0px 100px;
+}
+.student{
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 100px;
+}
