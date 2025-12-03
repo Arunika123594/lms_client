@@ -107,12 +107,24 @@
     list-style: none;
     font-size: 20px;
 }
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: 2s;
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/14653.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 2s;
+    object-fit: contain;
+}
+.box:hover{
+    background-color: aliceblue;
+    transform: scale(1,1) rotate(180deg);
+}
 
 .student {
     font-family: 'Times New Roman', Times, serif;
     color: blue;
     font-size: 100px;
-}
-.footer{
-    
 }
